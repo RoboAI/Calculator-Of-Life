@@ -23,7 +23,7 @@ public override void DoIt(){
 }
 
 public override void GetDescription(){
-  //return what this functionality is..
+  //return what this functionality is. This string is added to the Menu
   return "A surprise function";
 }
 ```
