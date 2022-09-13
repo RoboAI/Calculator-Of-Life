@@ -21,7 +21,9 @@ namespace ScientificCalculator
         {
             list = new List<CalculatorBase>();
 
+            //********************* Add functions here ********************//
             list.Add(new Addition());
+            //*************************************************************//
 
             //Exit, this should always be added last
             list.Add(new EndCalculator());
